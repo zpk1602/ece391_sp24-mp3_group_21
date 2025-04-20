@@ -1,0 +1,38 @@
+CP1
+
+
+idt.c: Main file for interrupts that contains the idt init function has the exception lookup table and handler code, syscall handler for now
+idt.h: 
+
+idtasm.S: Contains the assembly wrapper macros for Interrupts and exceptions
+idtasm.h: 
+
+
+keyboard.h:supposed to have init and handler code for keyboard
+keyboard.c:
+
+rtc.c: supposed to have init and handler code for rtc
+rtc.h:
+
+TO DO TMR:
+ 
+3. Understand what test_interrupts does for rtc functionality 
+4. format keyboard lookup table before using
+
+CP2:
+
+fd.h: Contains the common file descriptor API, that the terminal, RTC,
+and filesystem all use.
+
+terminal.c/h: Contains the terminal abstraction API. Abstracting this away now will prevent
+having to refactor the code for Checkpoint 5, when we will have to implement multiple
+terminals.
+
+CP3:
+
+swtch.c/h / swtch_asm.S: Contains an implementation of context switching between kernel mode
+stacks. This includes jumping to a new stack and running a function, swapping out the existing
+context for a different one, and jumping to a context without saving the current one.
+
+process.c/h: Contains definitions of the Process Control Block, kernel stack allocation,
+and executing processes.

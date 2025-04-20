@@ -1,0 +1,11 @@
+# Exclude everything
+*
+# Except directories and files with extensions
+!*/
+!*.*
+# But do exclude the following, even if they have an extension
+*.o
+*.dep
+*.exe
+mp3.img
+bootimg
