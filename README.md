@@ -1,3 +1,12 @@
+# ECE 391 MP3 – OS-Level Programming Project
+This repository contains my group's submission for MP3, the final project in ECE 391 (Computer Systems Engineering) at the University of Illinois Urbana-Champaign in Spring 2024.
+
+## Academic Integrity Warning
+This code is shared for **educational and portfolio purposes only**.  
+It is **not** intended for reuse or submission in any academic course.
+
+Any copying or submission of this work in a course at UIUC or elsewhere will be considered a violation of academic integrity policies.  
+
 ACADEMIC INTEGRITY
 -----
 Please review the University of Illinois Student Code before starting,
